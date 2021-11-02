@@ -1,0 +1,33 @@
+param:  G:                          p   D:=
+  "Headphones"                    5000  6
+  "Phones"                        4000  6
+  "Laptop"                        2000  6;
+
+param:  D:                         :=
+  "Headphones"                    6  
+  "Phones"                        6  
+  "Laptop"                        6 ;
+
+param GVmax := 6000;
+
+param:  a:                GAmin    GAmax :=
+        "Headphones"      2000      .
+        "Phones"           .        .
+        "Laptop"          3000      . ;
+
+param:  d:                GDmin    GDmax :=
+        "Headphones"       .        9000
+        "Phones"           .        14000
+        "Laptop"           .        7000 ;
+
+param:  v:                v      p :=
+        "Headphones"      30      1000
+        "Phones"          50      1000
+        "Laptop"          220      1000;
+
+param:  P:                              :=
+        "Headphones"                    5  
+        "Phones"                        7  
+        "Laptop"                        12 ;
+
+
